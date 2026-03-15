@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <title>Шүдээ Угаах Зөвлөмж</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Шүдээ Угаах Зөвлөмж</h1>
+        <p>Энэхүү сайт таныг өдөр тутам шүдээ зөв угаахад тусална.</p>
+    </header>
+
+    <section class="content">
+        <h2>1. Шүдээ өдөрт 2 удаа угаах</h2>
+        <p>Өглөө босоод болон орой унтахаасаа өмнө шүдээ угаах нь хамгийн чухал.</p>
+
+        <h2>2. Зөв шүдний сойз, оо ашиглах</h2>
+        <p>Зөөлөн сойз болон фтор агуулсан шүдний оо сонгоорой.</p>
+
+        <h2>3. Шүд угаах зөв арга</h2>
+        <p>Дээшээ доош, дугуй хэлбэртэй хөдөлгөөнөөр угаана. 2 минут хангалттай.</p>
+
+        <h2>4. Гоё зураг</h2>
+        <div class="image-container">
+            <img src="teeth.jpg" alt="Шүдээ угаах зураг">
+        </div>
+    </section>
+
+    <!-- Видео хэсэг -->
+    <section class="video-section">
+        <h2>Видео — Шүдээ Угаах Зөвлөмж</h2>
+        <div class="video-container">
+            <iframe width="315" height="560"
+                src="https://www.youtube.com/embed/fN-NUpa_caE"
+                title="Шүдээ угаах видео"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p>Доорх видеог үзэж, шүдээ зөв угаах аргыг сур!</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Шүдний Эрүүл Мэнд</p>
+    </footer>
+</body>
+</html>
